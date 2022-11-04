@@ -1,0 +1,8 @@
+<extension name="asterisk">
+  <condition field="destination_number" expression="^(\d+)$">
+    <action application="set" data="domain_name=$${domain}"/>
+    <action application="answer"/>
+    <!--<action application="echo"/>-->
+    <action application="playback" data="http://192.168.5.123:8000/cgi-bin/IVR.wav"/>
+  </condition>
+</extension>

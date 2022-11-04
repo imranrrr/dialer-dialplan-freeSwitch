@@ -1,0 +1,9 @@
+{
+  "logger": "/home/j29fk/drb-agi.log",
+  "logging": "monthly",
+  "codecs": "G729,PCMU,PCMA",
+  "cdr_url": "http://localhost:8000/cgi-bin/dialplan.cgi",
+  "servers": [
+    "druby://localhost:1234"
+  ]
+}

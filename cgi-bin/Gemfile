@@ -1,0 +1,12 @@
+source 'https://rubygems.org'
+
+gem 'unirest'
+gem 'logger'
+gem 'uri'
+gem 'warning'
+gem 'cgi'
+gem 'json'
+gem 'drb'
+gem 'timeout'
+gem 'nokogiri'
+gem 'date'
